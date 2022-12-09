@@ -1,0 +1,33 @@
+{
+  "name": "week-11---hackathon---secret-santa-backend",
+  "version": "1.0.0",
+  "description": "Secret Santa Room 38",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config app.js",
+    "dev": "nodemon -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W1llB/Week-11---Hackathon---Secret-Santa-Backend.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/W1llB/Week-11---Hackathon---Secret-Santa-Backend/issues"
+  },
+  "homepage": "https://github.com/W1llB/Week-11---Hackathon---Secret-Santa-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node": "^19.1.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
