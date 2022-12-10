@@ -3,8 +3,8 @@ import { getMembersByGroupName, addGroup } from "../models/index.js";
 const router = express.Router();
 
 router.get("/", async function (req, res) {
-    console.log(req.body.groupName)
-    const result = await getMembersByGroupName(req.body.groupName);
+    console.log(req.body.payload)
+    const result = await getMembersByGroupName(req.body.payload);
     // if (result == undefined) {
     //   return res.json({ success: false });
     // }
